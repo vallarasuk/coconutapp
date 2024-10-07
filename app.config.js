@@ -1,31 +1,26 @@
-import 'dotenv/config';
+import "dotenv/config";
 
 export default {
   expo: {
     name: "coconut-app",
     slug: "coconut-app",
     version: "1.0.0",
-    assetBundlePatterns: [
-      "**/*"
-    ],
+    assetBundlePatterns: ["**/*"],
     plugins: [
       [
         "expo-notifications",
         {
-          "sounds": [
-            "./src/assets/audio/message.mp3"
-          ]
-        }
+          sounds: ["./src/assets/audio/message.mp3"],
+        },
       ],
       "expo-image-picker",
-      "react-native-background-fetch"
+      "react-native-background-fetch",
     ],
     extra: {
       eas: {
-        projectId: process.env.EXPO_PROJECT_ID
-      }
+        projectId: "f4a2ff01-75fd-4b2b-93f1-fc543149a492",
+      },
     },
-    owner: process.env.EXPO_OWNER
-  }
+    owner: "vallarasu_kanthasamy",
+  },
 };
-require('dotenv').config();
