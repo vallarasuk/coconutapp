@@ -28,3 +28,4 @@ export default {
     owner: process.env.EXPO_OWNER
   }
 };
+require('dotenv').config();
