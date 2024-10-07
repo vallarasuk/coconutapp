@@ -2,8 +2,8 @@ import 'dotenv/config';
 
 export default {
   expo: {
-    name: "coconut-mobile",
-    slug: "coconut-mobile",
+    name: "coconut-app",
+    slug: "coconut-app",
     version: "1.0.0",
     assetBundlePatterns: [
       "**/*"
