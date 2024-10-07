@@ -22,5 +22,21 @@ export default {
       },
     },
     owner: "vallarasu_kanthasamy",
+    platforms: {
+      ios: {
+        supportsTablet: true,
+      },
+      android: {
+        adaptiveIcon: {
+          foregroundImage: "./assets/adaptive-icon.png",
+          backgroundColor: "#FFFFFF",
+        },
+      },
+      web: {
+        favicon: "./assets/favicon.png",
+      },
+    },
+    description: "Your app description here",
+    icon: "./assets/icon.png",
   },
 };
